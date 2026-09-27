@@ -19,18 +19,18 @@ WeekendAI Labs sells transformation, and transformation is a human experience. P
 
 | | Year 1 | Year 2 | Year 3 |
 |---|---|---|---|
-| Human team (FTE) | **3.5** | **10** | **19** |
+| Human team (FTE) | **3.5** | **11** | **20** |
 | Of which facilitators | 0.5 | 3 | 8 |
-| AI agents in production | 6 | 11 | 12 |
-| People + agents cost | $445k | $1.16M | $2.02M |
+| AI agents in production | 7 | 12 | 13 |
+| People + agents cost | $445k | $1.26M | $2.12M |
 | Baseline team cost (conventional plan) | $430k | $1.31M | $2.33M |
-| Revenue per human | ~$517k | ~$622k | ~$768k |
-| EBITDA margin (AI-native) | 5.6% | 25.6% | 34.2% |
+| Revenue per human | ~$584k | ~$655k | ~$858k |
+| EBITDA margin (AI-native) | 9.2% | 27.5% | 36.5% |
 
-*Source: operating model, AI-Native Team sheet. Baseline figures from the P&L sheet.*
+*Source: operating model, AI-Native Team sheet, including CapabilityOS. Baseline figures from the P&L sheet.*
 
 <Note>
-The cost saving is modest in Year 1 and grows to about **$305k a year by Year 3**. That's by design: facilitators, the most expensive human role, stay human. The real gains are fewer coordination roles, faster response times, and revenue per person about **1.5×** the conventional plan.
+The cost saving is modest in Year 1 and grows to about **$205k a year by Year 3** (after adding a CapabilityOS product lead). That's by design: facilitators, the most expensive human role, stay human. The real gains are fewer coordination roles, faster response times, and revenue per person about **1.4×** the conventional plan.
 </Note>
 
 ## Three kinds of work
@@ -63,6 +63,8 @@ flowchart TB
   OPS --> A2[Concierge agent]
   OPS --> A3[Scout lead agent]
   FAC --> A4[Coach / TA agent]
+  GM --> CAP[CapabilityOS product lead]
+  CAP --> A8[CapabilityOS Coach agent]
   FAC --> A5[Proof agent]
   CRE --> A6[Content Studio agent]
   B2B --> A7[Deal Desk agent]
@@ -71,7 +73,7 @@ flowchart TB
 ## Where to go next
 
 <CardGroup cols={2}>
-  <Card title="Agent roster" icon="robot" href="/ai-operations/agent-roster">The 12 agents, what they do and who owns each one</Card>
+  <Card title="Agent roster" icon="robot" href="/ai-operations/agent-roster">The 13 agents, what they do and who owns each one</Card>
   <Card title="Human touch map" icon="hand-holding-heart" href="/ai-operations/human-touch">Where people must stay in the loop, stage by stage</Card>
   <Card title="Hiring plan & skills" icon="user-plus" href="/ai-operations/hiring-plan">Who to hire, when, and what skills to look for</Card>
   <Card title="Year-by-year rollout" icon="road" href="/ai-operations/year-by-year">How the team and agents grow from Year 1 to Year 3</Card>
