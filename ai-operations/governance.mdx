@@ -1,0 +1,33 @@
+---
+title: "Agent governance"
+description: "The rules that keep agents accurate, safe and on-brand."
+icon: "shield-halved"
+---
+
+## Seven rules
+
+<Steps>
+  <Step title="Every agent has a named owner">No owner, no launch. The owner is accountable for the agent's output as if it were their own.</Step>
+  <Step title="Start at L1 and earn autonomy">New agents only draft. They move up a level after four straight weeks at their quality bar.</Step>
+  <Step title="Always disclose">Learners and clients are told when they're talking to an AI assistant, with one click to reach a person.</Step>
+  <Step title="Protect client data">Enterprise client data only goes into tools approved in the [Tech stack](/operations/tech-stack). Nothing confidential goes into a tool that trains on it.</Step>
+  <Step title="Keep the founder's voice human">Agents may draft in the founder's style. Nothing goes out under his name until he's read it.</Step>
+  <Step title="Cap costs">Each agent has a monthly spend cap. The automation engineer (Head of AI Ops in Y1) gets an alert at 80%.</Step>
+  <Step title="Keep a kill switch">Any team member can pause any agent immediately. Pausing is never a mistake.</Step>
+</Steps>
+
+## Review rhythm
+
+| Review | Cadence | Who | What |
+|---|---|---|---|
+| Queue check | Daily | Each agent owner | Clear L1 drafts; spot-check L2 actions |
+| Quality sample | Weekly | Head of AI Ops | 20 random conversations or outputs per customer-facing agent |
+| Agent review | Monthly | GM + owners | Quality, cost, time saved, incidents; decide promotions and demotions |
+| Eval refresh | Quarterly | Automation engineer | Update test sets; re-test after any model or tool change |
+
+## When an agent gets it wrong
+
+1. Pause the agent if the mistake could repeat.
+2. A person contacts the affected customer the same day and fixes it.
+3. Log the incident in the [Decision log](/execution/decision-log) with the cause and the fix.
+4. Add the case to the agent's test set so it can't happen quietly again.

@@ -1,0 +1,48 @@
+---
+title: "Agent roster"
+description: "Twelve AI agents, each with a job, a human owner and a clear limit on what it may do alone."
+icon: "robot"
+---
+
+Every agent has **one named human owner**. The owner sets its instructions, reviews its work, and answers for its mistakes. An agent without an owner doesn't go live.
+
+## Autonomy levels
+
+| Level | Name | What the agent may do | Example |
+|---|---|---|---|
+| **L1** | Draft | Prepares work; a human sends or publishes it | Proposal drafts, newsletter drafts |
+| **L2** | Act with review | Acts, and a human reviews a sample or a queue daily | Learner FAQ replies, lead routing |
+| **L3** | Autonomous | Acts alone within fixed rules; escalates exceptions | Reminders, invoicing, scheduling |
+
+## The roster
+
+| # | Agent | What it does | Human owner | Level | Live from |
+|---|---|---|---|---|---|
+| 1 | **Scout** (leads) | Scores Hub sign-ups and Scorecard results, enriches profiles, routes to the right brand, starts nurture sequences | Head of AI Ops | L3 | Y1 Q1 |
+| 2 | **Concierge** (support) | Answers enrolment, billing and schedule questions 24/7 across email and community; escalates anything sensitive | Head of AI Ops | L2 | Y1 Q1 |
+| 3 | **Cohort Ops** | Schedules sessions, sends reminders, tracks attendance and assignments, flags at-risk learners, collects baseline and after metrics | Head of AI Ops | L3 | Y1 Q1 |
+| 4 | **Content Studio** | Turns founder videos into shorts, LinkedIn drafts, newsletter first drafts and lead magnets | Creative lead | L1 | Y1 Q1 |
+| 5 | **Finance & Admin** | Invoices, payment reminders, reconciliation, monthly KPI pack for the business review | Founder, then GM | L3 for invoicing, L1 for reports | Y1 Q2 |
+| 6 | **Coach / TA** | Answers learners' build questions inside the curriculum, gives first-pass prototype feedback for the facilitator to approve | Lead facilitator | L1 for feedback, L2 for Q&A | Y1 Q3 |
+| 7 | **Proof** | Checks Transformation Wall submissions for completeness and plausibility, drafts case studies and client ROI reports | Lead facilitator | L1 | Y2 Q1 |
+| 8 | **Community Pulse** | Tracks Guild engagement, predicts churn, suggests discussion prompts, summarises events | Community lead | L2 | Y2 Q1 |
+| 9 | **Deal Desk** | Researches accounts, preps discovery calls, drafts proposals and QBR packs, warns of renewals 90 days out | B2B lead | L1 | Y2 Q1 |
+| 10 | **Curriculum Watch** | Tracks AI tool changes, flags stale modules and exercises, drafts updates | Founder | L1 | Y2 Q2 |
+| 11 | **Studios Production** | Generates ad variants, landing page drafts and AI video cuts for client projects | Studios lead (creative lead until Y3) | L1 | Y2 Q2 |
+| 12 | **Partner Radar** | Finds and qualifies partners, drafts outreach, tracks the partner pipeline | B2B lead | L1 | Y3 Q1 |
+
+## Agent specs (template)
+
+Each agent gets a one-page spec in [Delivery playbooks](/operations/delivery-playbooks) before it launches.
+
+<AccordionGroup>
+  <Accordion title="What every spec must contain">
+    The agent's job in one sentence. Its inputs and the tools it can use. Its autonomy level. What it must escalate, and to whom. The quality bar and how it's checked. A monthly cost cap. The named owner.
+  </Accordion>
+  <Accordion title="Example: Concierge">
+    **Job:** Answer learner and member questions within 5 minutes, any time of day. **Tools:** community platform, email, course platform (read), payments (read). **Level:** L2. **Escalate:** refunds, complaints, anything about wellbeing or employment, any enterprise client, any question it can't answer from the knowledge base. **Quality:** Head of AI Ops reviews 20 conversations a week; target 95% correct. **Discloses:** it's an AI assistant, with a one-click route to a person.
+  </Accordion>
+  <Accordion title="Example: Coach / TA">
+    **Job:** Help learners get unstuck between live sessions and draft feedback on prototypes. **Tools:** curriculum library, learner submissions, cohort chat. **Level:** L2 for Q&A, L1 for feedback. **Escalate:** a learner who is stuck two sessions running, any disagreement with the facilitator's guidance. **Human rule:** no grade, certification decision or written feedback reaches a learner without a facilitator's approval.
+  </Accordion>
+</AccordionGroup>

@@ -16,10 +16,22 @@
   "favicon": "/logo/weekendai.png",
   "navbar": {
     "links": [
-      { "label": "weekendai.com", "href": "https://weekendai.com" },
-      { "label": "School", "href": "https://schoolofappliedai.com" },
-      { "label": "Studios", "href": "https://studios.weekendai.com" },
-      { "label": "The AI Edge", "href": "https://theailedge.com" }
+      {
+        "label": "weekendai.com",
+        "href": "https://weekendai.com"
+      },
+      {
+        "label": "School",
+        "href": "https://schoolofappliedai.com"
+      },
+      {
+        "label": "Studios",
+        "href": "https://studios.weekendai.com"
+      },
+      {
+        "label": "The AI Edge",
+        "href": "https://theailedge.com"
+      }
     ],
     "primary": {
       "type": "button",
@@ -34,7 +46,10 @@
         "groups": [
           {
             "group": "Start here",
-            "pages": ["index", "reference/contributing"]
+            "pages": [
+              "index",
+              "reference/contributing"
+            ]
           },
           {
             "group": "Strategy",
@@ -78,6 +93,17 @@
         "tab": "Operating Plan",
         "groups": [
           {
+            "group": "AI-native operations",
+            "pages": [
+              "ai-operations/overview",
+              "ai-operations/agent-roster",
+              "ai-operations/human-touch",
+              "ai-operations/hiring-plan",
+              "ai-operations/year-by-year",
+              "ai-operations/governance"
+            ]
+          },
+          {
             "group": "Operations",
             "pages": [
               "operations/org-and-team",
@@ -106,7 +132,10 @@
           },
           {
             "group": "Reference",
-            "pages": ["reference/sources", "reference/glossary"]
+            "pages": [
+              "reference/sources",
+              "reference/glossary"
+            ]
           }
         ]
       }
