@@ -1,0 +1,64 @@
+---
+title: "How to contribute"
+description: "Editing rules, page ownership and review flow for this wiki."
+icon: "pen-to-square"
+---
+
+This wiki is the **single source of truth** for the WeekendAI Labs plan. It runs on Mintlify, and every page is an `.mdx` file in a Git repository. Anyone you invite can edit it in the browser or locally.
+
+## Ways to edit
+
+<Tabs>
+  <Tab title="Web editor (no code)">
+    <Steps>
+      <Step title="Accept the invite">
+        The workspace owner invites you from the Mintlify dashboard (**Settings → Members**).
+      </Step>
+      <Step title="Open the editor">
+        In the dashboard, open **Editor**, pick a page and edit it visually or in Markdown.
+      </Step>
+      <Step title="Publish or propose">
+        Owners can publish straight to `main`. Everyone else saves to a branch and opens a review.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Local (Git + CLI)">
+    ```bash
+    git clone <repo-url> weekendai-business-plan
+    cd weekendai-business-plan
+    npm i -g mint        # Mintlify CLI
+    mint dev             # preview at http://localhost:3000
+    mint broken-links    # check before you push
+    ```
+    Open a pull request against `main`. When it merges, the site redeploys automatically.
+  </Tab>
+</Tabs>
+
+## Editing rules
+
+<Steps>
+  <Step title="Facts vs targets">
+    Company facts (brands, services, prices, owned assets) come from the Partner Brief or the Investor Deck. Label any forecast **(target)** or **(model)**.
+  </Step>
+  <Step title="Numbers live in the model">
+    Change volumes, prices or margins in `files/WeekendAI_Labs_Operating_Model.xlsx` first, then update the pages that quote them. Don't edit a number on one page only.
+  </Step>
+  <Step title="Cite external claims">
+    Every external benchmark needs a link. Add new sources to [Sources](/reference/sources).
+  </Step>
+  <Step title="Log decisions">
+    When the plan changes direction, add an entry to the [Decision log](/execution/decision-log).
+  </Step>
+</Steps>
+
+## Page ownership
+
+| Section | Owner | Review cadence |
+|---|---|---|
+| Strategy, Brands | Founder | Quarterly |
+| Business model, Go-to-market | Founder → Growth lead | Monthly |
+| Operations | Founder → GM (from Year 2) | Monthly |
+| Financials | Founder → GM | Monthly, after close |
+| Execution | Founder / GM | Weekly |
+
+<Note>Until the first hires join, the founder owns every page. Hand each section over when its owner starts.</Note>

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "WeekendAI Labs — Business Plan",
+  "description": "Internal operating plan for WeekendAI Labs: four brands, one flywheel, a community that compounds.",
+  "colors": {
+    "primary": "#C97F2A",
+    "light": "#E3A35A",
+    "dark": "#A8631A"
+  },
+  "logo": {
+    "light": "/logo/weekendai.png",
+    "dark": "/logo/weekendai.png",
+    "href": "/"
+  },
+  "favicon": "/logo/weekendai.png",
+  "navbar": {
+    "links": [
+      { "label": "weekendai.com", "href": "https://weekendai.com" },
+      { "label": "School", "href": "https://schoolofappliedai.com" },
+      { "label": "Studios", "href": "https://studios.weekendai.com" },
+      { "label": "The AI Edge", "href": "https://theailedge.com" }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Download model",
+      "href": "/files/WeekendAI_Labs_Operating_Model.xlsx"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Business Plan",
+        "groups": [
+          {
+            "group": "Start here",
+            "pages": ["index", "reference/contributing"]
+          },
+          {
+            "group": "Strategy",
+            "pages": [
+              "strategy/vision",
+              "strategy/problem-and-solution",
+              "strategy/customers",
+              "strategy/competitive-landscape"
+            ]
+          },
+          {
+            "group": "Brands",
+            "pages": [
+              "brands/architecture",
+              "brands/school-of-applied-ai",
+              "brands/studios",
+              "brands/weekendai-hub",
+              "brands/the-ai-edge"
+            ]
+          },
+          {
+            "group": "Business model",
+            "pages": [
+              "business-model/pillars-and-revenue",
+              "business-model/offer-ladder",
+              "business-model/transformation-proof",
+              "business-model/unit-economics"
+            ]
+          },
+          {
+            "group": "Go-to-market",
+            "pages": [
+              "go-to-market/flywheel",
+              "go-to-market/b2b-sales",
+              "go-to-market/partnerships"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Operating Plan",
+        "groups": [
+          {
+            "group": "Operations",
+            "pages": [
+              "operations/org-and-team",
+              "operations/facilitator-model",
+              "operations/delivery-playbooks",
+              "operations/tech-stack",
+              "operations/kpis-and-cadence"
+            ]
+          },
+          {
+            "group": "Financials",
+            "pages": [
+              "financials/three-year-plan",
+              "financials/use-of-funds",
+              "financials/valuation-and-exit"
+            ]
+          },
+          {
+            "group": "Execution",
+            "pages": [
+              "execution/roadmap",
+              "execution/first-90-days",
+              "execution/risks",
+              "execution/decision-log"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": ["reference/sources", "reference/glossary"]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://weekendai.com"
+    }
+  }
+}
